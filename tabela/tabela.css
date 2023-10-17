@@ -1,0 +1,19 @@
+#main-tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table{
+    padding: 1rem;
+}
+
+tbody{
+    padding: 1rem;
+}
+
+#main-table{
+    padding: 5rem 20rem;
+    
+}

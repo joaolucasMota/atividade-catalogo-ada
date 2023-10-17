@@ -1,0 +1,35 @@
+.container-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-group input{
+    color: #1b0505;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid #110202;
+    background-color: transparent;
+    transform: outline-color 250ms;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-group input:focus{
+    outline-color:grey;
+}
+
+
+
+.input-group input:focus + .input-group label, .input-group input:valid + .input-group label {
+    transform: translate(0, -30px) scale(0.8);
+}
