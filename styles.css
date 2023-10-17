@@ -190,6 +190,14 @@ main{
     transform: translateX(-50%) translateY(4px);
 }
 
+footer{
+    text-align: center;
+    bottom: auto;
+    background-color: rgb(248, 245, 245);
+    padding: 1rem;
+    font-weight: bolder;
+}
+
 
 
 
